@@ -7,7 +7,7 @@ export const INITIAL_ROUTES = {
 	},
 }
 
-export const BASE_URL = 'http://localhost:3001'
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL
 
 export const VALIDATE_TEXT = 'Заполните поле'
 
